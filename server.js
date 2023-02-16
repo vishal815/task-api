@@ -11,6 +11,13 @@ const app = express();
 
 app.use(express.json());
 
+app.get('/',(req, res) => {
+    res.json({
+        success: true,
+        message: 'server is up and running successfully'
+    })
+})
+
 app.use('/api/v1', taskRouter);
 
 
