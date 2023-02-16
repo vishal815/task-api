@@ -1,0 +1,10 @@
+npm init
+
+npm i express mongoose dotenv
+
+
+mongodb atlas
+
+
+npm run dev
+
